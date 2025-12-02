@@ -1,22 +1,37 @@
+
+/* --- CSS for whole body --- */
 body {
     padding: 0;
-    margin: 0;
-    
+    margin: 2em;
     /* Add these lines */
-    display: flex;
+   
     height: 100vh;           /* Must have height for vertical centering */
     justify-content: center; /* Centers horizontally */
     align-items: center;   /* Centers vertically */
+    font-family: 'Courier New', Courier, monospace;
 }
+
+/* --- CSS for text type --- */
+
+.header { /* Header of website */
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px; 
+}
+
+.subheader { /* Subheader of website */
+    text-align: center;
+    font-size: x-large
+}
+
+/* --- CSS for map --- */
 
 #map {
-
     height: 90vh;
-    width: 150vh;
-}
-
-
-#intro, #map {
+    width: 90vh;
+    align-items: center;   /* Centers vertically */
     width: 100%;
     display: block;
 }
+
+/* --- CSS for SoundCloud Files in intro --- */
